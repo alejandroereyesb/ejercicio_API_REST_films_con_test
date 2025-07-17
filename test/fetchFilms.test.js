@@ -3,6 +3,8 @@ const fetchFilm = require('../utils/fetchFilms');
 describe('fetchFilm utility', () => {
   it('should return movie details for a known movie', async () => {
     const data = await fetchFilm('Inception');
+    console.log("Test fetched data:", data); // Add logging for debugging
+    
     expect(data).toBeDefined();
     if (!data) {
       console.error("Expected movie details for 'Inception', but got nothing.");
