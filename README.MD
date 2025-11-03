@@ -39,7 +39,7 @@ Vas a escribir código en `app.js`, `utils/fetchFilms.js`, y `routes/films.js`. 
 -   En `app.js`, configura y arranca tu servidor web y establece las rutas necesarias, no te olvides de exportar el módulo para que funcionen los tests al final del achivo (module.exports = <nombre de la variable donde tengas express()>)
 -   En `utils/fetchFilms.js`, trabaja en la función para obtener datos de películas desde una API externa.
 -   En `routes/films.js`, gestiona las rutas para el manejo de películas.
--   En `contrrollers/films.controller.js`, crea el controlador con los métodos adecuados para manejar las películas.
+-   En `controllers/films.controller.js`, crea el controlador con los métodos adecuados para manejar las películas.
 
 Rutas a desarrollar:
 
